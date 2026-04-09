@@ -1,0 +1,29 @@
+body { font-family: 'Segoe UI', sans-serif; background-color: #f4f7f6; display: flex; justify-content: center; padding-top: 50px; }
+.container { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+h1 { text-align: center; color: #333; }
+form { display: flex; flex-direction: column; gap: 1rem; }
+input { padding: 12px; border: 1px solid #ddd; border-radius: 4px; }
+button { padding: 12px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; transition: 0.3s; }
+button:hover { background-color: #218838; }
+#logoutBtn { background-color: #dc3545; padding: 5px 10px; }
+ul { list-style: none; padding: 0; margin-top: 20px; }
+li { background: #fff; border-bottom: 1px solid #eee; padding: 10px; display: flex; justify-content: space-between; align-items: center; }
+
+
+.actions { display: flex; gap: 5px; }
+
+.btn-edit { 
+    background-color: #ffc107; 
+    color: #212529; 
+    font-size: 12px; 
+    padding: 5px 10px; 
+}
+
+.btn-edit:hover { background-color: #e0a800; }
+
+.btn-delete { 
+    background-color: #dc3545; 
+    font-size: 12px; 
+    padding: 5px 10px; 
+}
+
